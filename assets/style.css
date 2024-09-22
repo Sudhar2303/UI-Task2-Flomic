@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-contact-info-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 0;
+    padding-inline: 12.5%;
+    color: rgb(172, 170, 170);
+    font-size: 12px;
+}
+.link-conatiner
+{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+.contact-container
+{
+    display: flex;
+    width: 27%;
+    justify-content: space-evenly;
+}
+.header-container
+{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    top: 0;
+}
+.company-name-logo
+{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+#company-first-name
+{
+    font-size: 150%;
+    padding: 0px;
+}
+.company-name-logo img
+{
+    max-width: 100%;
+    padding: 3%;
+}
+.header-navbar-container
+{
+    width: 55%;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    align-items: center;
+}
+.active
+{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 2%;
+}
+.non-active
+{
+    text-decoration: none;
+    color: black;
+}
+.dropbtn
+{
+    border: 0px solid;
+    background-color: white;
+}
+.hamburger
+{
+    display: none;
+    font-size: 20px;
+}
+.product-list-section
+{
+    width: 100%;
+    background-image: url(./image/image1.png);
+    background-attachment: fixed;
+}
+.product-list-container
+{
+    width: 75%;
+    margin: 0 auto;
+    padding: 8% 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.product
+{
+    width: 31%;
+}
+.product div
+{
+    width: 100%;
+    padding: 10%;
+}
+.product-heading
+{   
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(233, 233, 233, 0.6);
+}
+.product-sub-category
+{
+    text-align: center;
+    background-color: rgb(255, 255, 255,0.7);
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgb(153, 151, 151);
+    font-style: italic;
+    
+}
+.product-sub-category p
+{
+    padding: 6% 0;
+}
+.read-more-button
+{
+    width: 100%;
+    border: 0px solid;
+    background-color: rgba(58, 180, 27, 0.76);
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 7% 0;
+    color: white;
+}
+.product:hover
+{
+    background-color: rgb(245, 245, 245);
+}
+.achievement-section
+{
+    width: 100%;
+    padding: 3% 12.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.achievement-container
+{
+    width:48%;
+}
+.notable-achievement
+{
+    background-image: url(./image/archievement-3.jpg);
+    padding-top: 75%;
+    margin: 8% 0;
+}
+.notable-achievement-text-container
+{
+    background-color: rgba(14, 14, 14, 0.788);
+    color: white;
+    text-align: center;
+    padding: 3% 0;
+}
+.achievement-name
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.achievement-descripton
+{
+    font-size: 18px;
+    padding: 2%;
+}
+.achievement-read-more-button
+{
+    border: 1px solid  rgba(82, 207, 82, 0.925);
+    background-color: inherit;
+    width: 30%;
+    padding: 2%;
+    color: rgba(82, 207, 82, 0.925);
+    font-weight: 600;
+}
+.other-achievement
+{
+    width: 100%;
+    margin: 8% 0;
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.achievement-elements
+{
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.elements-image-container
+{
+    max-width: 25%;
+    max-height: 80%;
+    border: 1px solid gray;
+    padding: 1%;
+}
+.elements-text-container
+{
+    width: 72%;
+    font-family: "Open Sans", sans-serif;
+}
+hr
+{
+    background-color: gray;
+    height: 2px;
+}
+.archievement-name
+{
+    font-size: 22px;
+    font-family: serif;
+    font-weight: bold;
+}
+.archievement-date
+{
+    font-size: 11px;
+}
+.archievement-description
+{
+    padding: 5% 0 ;
+    font-size: 16px;
+}
+.service-subheading
+{
+    font-size: 150%;
+    font-weight: bold;
+}
+.service-description
+{
+    font-family: "Open Sans", sans-serif;   
+    font-size: 16px;
+}
+.other-service-section
+{
+    width: 100%;
+    padding: 0 12.5%;
+    text-align: center;
+    padding-top: 5%;
+    background-color: rgb(228, 228, 228);
+}
+.service-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+.service-container-element
+{
+    width: 48%;
+    display: flex;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.service-container-element img
+{
+    width:50%;
+}
+.service-text-container1
+{
+    padding: 4% 4%;
+    background-color: rgb(255, 234, 46);
+}
+.service-text-container2
+{
+    padding: 4% 4%;
+    background-color: rgb(55, 172, 207);
+}
+.service-read-more-button
+{
+    border: 1px solid  rgb(255, 255, 255);
+    background-color:inherit;
+    width: 50%;
+    padding: 2%;
+    color: rgba(255, 255, 255, 0.925);
+    margin-top: 4%;
+    font-weight: 600;
+}
+.footer-session
+{
+    width: 100%;
+    background-color: rgb(51, 45, 45);
+    color: gray;
+    padding: 4% 12.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "Open Sans", sans-serif;
+}
+.footer-address-info
+{
+    width: 46%;
+    font-size: 14px;
+}
+.footer-header
+{
+    font-family: serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.footer-description
+{
+    padding-bottom: 5%;
+}
+.footer-contact-info p
+{
+    padding: 1% 0;
+}
+.footer-quick-links
+{
+    width: 22%;
+}
+.footer-links
+{
+    height: 70%;
+    font-weight: 600;
+    color: rgb(110, 177, 11);
+}
+.footer-links p
+{
+    padding: 2% 0;
+}
+.other-contact-links
+{
+    width: 22%;
+}
+.email-field
+{
+    width: 100%;
+    padding: 5%;
+    color: gray;
+    border: 0px solid;
+    background-color: rgb(58, 58, 58);
+}
+.footer-submit-button
+{
+    margin: 10% 0;
+    padding: 5%;
+    width: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px solid;
+    background-color: rgb(110, 177, 11);
+    color: white;
+}
+.social-media-links
+{
+    background-color: rgb(37, 32, 32);
+    display: flex;
+    width: 75%;
+    height: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+.copyrights
+{
+    width: 100%;
+    background-color: rgb(27, 26, 26);
+    color: rgb(146, 144, 144);
+    padding: 3% 12.5%;
+}
+
+@media only screen and (max-width: 576px) 
+{
+    .header-contact-info-container
+    {
+        font-size: 10px;
+        padding-inline: 2%;
+    }
+    .link-conatiner
+    {
+        width: 35%;
+    }
+    .contact-container
+    {
+        width: 45%;
+    }
+    .header-container
+    {
+        width: 95%;
+    }
+    #company-first-name
+    {
+        font-size: 150%;
+    }
+    #company-last-name
+    {
+        font-size: 12px;
+    }
+    .company-name-logo img
+    {
+        max-width: 40%;
+        margin: 3% 0;
+    }
+    .header-navbar-container
+    {
+        display: none;
+    }
+    .hamburger
+    {
+        display: inline;
+    }
+    .product-list-section
+    {
+        background-position: center center;
+        background-size: cover;
+    }
+    .product-list-container
+    {
+        width: 95%;
+        flex-direction: column;   
+    }
+    .product
+    {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom:10%;
+    }
+    .product div
+    {
+        padding: 5% ;
+    }
+    .product-sub-category p
+    {
+        padding: 2.5% 0;
+    }
+    .read-more-button
+    {
+        padding: 5%;
+    }
+    .achievement-section
+    {
+        padding-inline: 2.5%;
+        flex-direction: column;
+        & h2
+        {
+            text-align: center;
+        }
+    }
+    .achievement-container
+    {
+        width:100%;
+        margin: 5% 0;
+    }
+    .achievement-elements
+    {
+        margin: 5% 0;
+    }
+    .elements-image-container
+    {
+        max-width: 25%;
+    }
+    .other-service-section
+    {
+        padding: 0 2.5%;
+        padding-top: 10%; 
+    }
+    .service-container
+    {
+        flex-direction: column;
+    }
+    .service-container-element
+    {
+        width: 100%;
+        padding: 5% 0;
+        font-size: 14px;
+    }
+    .service-read-more-button
+    {
+        width: 70%;
+    }
+    .footer-session
+    {
+        padding: 4% 2%;
+    }
+    .footer-address-info
+    {
+        width: 100%;
+        padding-bottom: 10%;
+    }
+    .footer-quick-links
+    {
+        width: 50%;
+    }
+    .other-contact-links
+    {
+        width: 40%;
+    }
+    .footer-header
+    {
+        padding-bottom: 5%;
+    }
+}
